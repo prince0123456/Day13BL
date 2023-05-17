@@ -24,22 +24,23 @@ namespace GenericSolution
             }
 
         }
-
-        public void FindMaxFloat(float A, float B, float C)
+        public void FindMaxFloat(float a, float b, float c)
         {
-            if (A > B && A > C)
+            if (a > b && a > c)
             {
-                Console.WriteLine("A is maximum float num of them");
+                Console.WriteLine("a is maximum float");
             }
-            if (B > A && B > C)
+            if (b > a && b > c)
             {
-                Console.WriteLine("B is maximum float num of them");
+                Console.WriteLine("b is maximum float");
             }
             else
             {
-                Console.WriteLine("C is maximum float num of them");
+                Console.WriteLine("c is maximum float");
             }
 
+
         }
+
     }
 }

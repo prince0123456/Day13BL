@@ -41,6 +41,15 @@ namespace GenericSolution
 
 
         }
+        public void FindMaxString(string a, string b, string c)
+        {
+            if (a.CompareTo(b) > 0 && a.CompareTo(c) > 0)
+                Console.WriteLine("a is maximum string");
+            if (b.CompareTo(a) > 0 && b.CompareTo(c) > 0)
+                Console.WriteLine("b is maximum string");
+            else
+                Console.WriteLine("c is maximum string");
+        }
 
     }
 }
